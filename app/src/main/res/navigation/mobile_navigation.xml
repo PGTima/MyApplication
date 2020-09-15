@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_info_manager">
+
+    <fragment
+        android:id="@+id/nav_clients"
+        android:name="com.example.myapplication.ui.app.ui.clients.clients"
+        android:label="@string/menu_clients"
+        tools:layout="@layout/fragment_clients" />
+    <fragment
+        android:id="@+id/nav_equipment"
+        android:name="com.example.myapplication.ui.app.ui.equipment.equipmentFragment"
+        android:label="@string/menu_equipment"
+        tools:layout="@layout/fragment_equipment" />
+    <fragment
+        android:id="@+id/nav_events_manager"
+        android:name="com.example.myapplication.ui.app.ui.events.events"
+        android:label="@string/menu_events"
+        tools:layout="@layout/fragment_events" />
+    <fragment
+        android:id="@+id/nav_events_manager_true"
+        android:name="com.example.myapplication.ui.app.ui.events.eventsManager"
+        android:label="@string/menu_events"
+        tools:layout="@layout/fragment_events_manager" />
+    <fragment
+        android:id="@+id/nav_events_clients_all"
+        android:name="com.example.myapplication.ui.app.ui.clients.EventsClients"
+        android:label="@string/menu_events_clients"
+        tools:layout="@layout/fragment_events_clients" />
+    <fragment
+        android:id="@+id/nav_my_game"
+        android:name="com.example.myapplication.ui.app.ui.clients.EventsForClient"
+        android:label="@string/menu_my_game"
+        tools:layout="@layout/fragment_events_for_client" />
+
+    <fragment
+        android:id="@+id/nav_my_order"
+        android:name="com.example.myapplication.ui.app.ui.clients.OrderClient"
+        android:label="@string/menu_my_order"
+        tools:layout="@layout/fragment_order_client" />
+    <fragment
+        android:id="@+id/nav_info_manager"
+        android:name="com.example.myapplication.ui.app.ui.info.information"
+        android:label="@string/menu_info"
+        tools:layout="@layout/fragment_information" />
+
+    <fragment
+        android:id="@+id/nav_exit"
+        android:name="com.example.myapplication.ui.app.ui.exit.exit"
+        android:label="@string/menu_exit"
+        tools:layout="@layout/fragment_exit" />
+</navigation>

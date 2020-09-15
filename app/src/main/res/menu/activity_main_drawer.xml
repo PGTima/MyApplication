@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_clients"
+            android:icon="@drawable/ic_menu_clients"
+            android:title="@string/menu_clients" />
+        <item
+            android:id="@+id/nav_equipment"
+            android:icon="@drawable/ic_menu_equipment"
+            android:title="@string/menu_equipment" />
+        <item
+            android:id="@+id/nav_events_manager"
+            android:icon="@drawable/ic_menu_events"
+            android:title="@string/menu_events" />
+        <item
+            android:id="@+id/nav_events_manager_true"
+            android:icon="@drawable/ic_menu_events"
+            android:title="@string/menu_events" />
+        <item
+            android:id="@+id/nav_events_clients_all"
+            android:icon="@drawable/ic_menu_events"
+            android:title="@string/menu_events_clients" />
+        <item
+            android:id="@+id/nav_my_game"
+            android:icon="@drawable/ic_menu_game"
+            android:title="@string/menu_my_game" />
+        <item
+            android:id="@+id/nav_my_order"
+            android:icon="@drawable/ic_menu_order"
+            android:title="@string/menu_my_order" />
+        <item
+            android:id="@+id/nav_info_manager"
+            android:icon="@drawable/ic_menu_info"
+            android:title="@string/menu_info" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_menu_exit"
+            android:title="@string/menu_exit" />
+    </group>
+</menu>
